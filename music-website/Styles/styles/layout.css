@@ -1,0 +1,62 @@
+header {
+    height: 125px;
+}
+
+header section img {
+    float:left;
+}
+
+header #decoration {
+    position: absolute;
+    top: 20px;
+    left: 70%;
+    width: 150px;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 33.33%;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    display: block;
+}
+
+nav > ul > li > a:hover {
+    background-color: #fccc3c;
+    color: #2c2a77;
+}
+
+section:nth-of-type(2) {
+    clear: both;
+}
+
+section.products {
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+section.products article {
+    flex: 1 1 250px;
+    width: 350px;
+}
+
+#decoration {
+    transform: rotate(-10deg);
+}
+
+footer {
+    height: 50px;
+    background-color: #2c2a77;
+    color: #fccc3c;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
